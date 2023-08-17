@@ -1,0 +1,61 @@
+Columns: nctid, status, why_stop, label, phase, diseases, icdcodes, drugs, smiless, criteria
+
+
+Combined Summary for Phase I:
+Number of Data Points: 1788
+
+Status Counts:
+completed: 1109
+terminated: 489
+withdrawn: 76
+active, not recruiting: 56
+unknown status: 48
+recruiting: 7
+suspended: 3
+
+Label Counts:
+1: 1006
+0: 782
+
+Missing Data Points:
+'why_stop': 1273
+
+Combined Summary for Phase II:
+Number of Data Points: 6105
+
+Status Counts:
+completed: 4122
+terminated: 1439
+unknown status: 197
+active, not recruiting: 175
+withdrawn: 150
+recruiting: 13
+suspended: 8
+not yet recruiting: 1
+
+Label Counts:
+0: 3065
+1: 3040
+
+Missing Data Points:
+'why_stop': 4655
+
+Combined Summary for Phase III:
+Number of Data Points: 4584
+
+Status Counts:
+completed: 3747
+terminated: 542
+active, not recruiting: 146
+unknown status: 117
+withdrawn: 26
+suspended: 4
+recruiting: 2
+
+Label Counts:
+1: 3109
+0: 1475
+
+Missing Data Points:
+'why_stop': 4071
+'criteria': 2

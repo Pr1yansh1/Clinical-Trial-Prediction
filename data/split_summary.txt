@@ -1,0 +1,153 @@
+Columns: nctid, status, why_stop, label, phase, diseases, icdcodes, drugs, smiless, criteria
+
+
+Summary for Phase I:
+
+Summary for phase_I_train.csv:
+Number of Data Points: 1044
+Missing Data Points in 'why_stop': 769
+
+Status Summary for phase_I_train.csv:
+completed: 705
+terminated: 282
+withdrawn: 30
+unknown status: 16
+active, not recruiting: 9
+suspended: 2
+
+Label Counts:
+1: 592
+0: 452
+
+Summary for phase_I_valid.csv:
+Number of Data Points: 117
+Missing Data Points in 'why_stop': 88
+
+Status Summary for phase_I_valid.csv:
+completed: 80
+terminated: 30
+unknown status: 5
+withdrawn: 2
+
+Label Counts:
+1: 67
+0: 50
+
+Summary for phase_I_test.csv:
+Number of Data Points: 627
+Missing Data Points in 'why_stop': 416
+
+Status Summary for phase_I_test.csv:
+completed: 324
+terminated: 177
+active, not recruiting: 47
+withdrawn: 44
+unknown status: 27
+recruiting: 7
+suspended: 1
+
+Label Counts:
+1: 347
+0: 280
+
+Summary for Phase II:
+
+Summary for phase_II_train.csv:
+Number of Data Points: 4005
+Missing Data Points in 'why_stop': 3087
+
+Status Summary for phase_II_train.csv:
+completed: 2836
+terminated: 965
+unknown status: 107
+withdrawn: 71
+active, not recruiting: 25
+suspended: 1
+
+Label Counts:
+0: 2091
+1: 1914
+
+Summary for phase_II_valid.csv:
+Number of Data Points: 446
+Missing Data Points in 'why_stop': 335
+
+Status Summary for phase_II_valid.csv:
+completed: 314
+terminated: 102
+withdrawn: 13
+unknown status: 12
+active, not recruiting: 5
+
+Label Counts:
+0: 238
+1: 208
+
+Summary for phase_II_test.csv:
+Number of Data Points: 1654
+Missing Data Points in 'why_stop': 1233
+
+Status Summary for phase_II_test.csv:
+completed: 972
+terminated: 372
+active, not recruiting: 145
+unknown status: 78
+withdrawn: 66
+recruiting: 13
+suspended: 7
+not yet recruiting: 1
+
+Label Counts:
+1: 918
+0: 736
+
+Summary for Phase III:
+
+Summary for phase_III_train.csv:
+Number of Data Points: 3094
+Missing Data Points in 'why_stop': 2741
+Missing Data Points in 'criteria': 2
+
+Status Summary for phase_III_train.csv:
+completed: 2612
+terminated: 380
+unknown status: 69
+active, not recruiting: 17
+withdrawn: 14
+suspended: 2
+
+Label Counts:
+1: 2021
+0: 1073
+
+Summary for phase_III_valid.csv:
+Number of Data Points: 344
+Missing Data Points in 'why_stop': 308
+
+Status Summary for phase_III_valid.csv:
+completed: 296
+terminated: 40
+unknown status: 4
+active, not recruiting: 3
+withdrawn: 1
+
+Label Counts:
+1: 229
+0: 115
+
+Summary for phase_III_test.csv:
+Number of Data Points: 1146
+Missing Data Points in 'why_stop': 1022
+
+Status Summary for phase_III_test.csv:
+completed: 839
+active, not recruiting: 126
+terminated: 122
+unknown status: 44
+withdrawn: 11
+recruiting: 2
+suspended: 2
+
+Label Counts:
+1: 859
+0: 287
