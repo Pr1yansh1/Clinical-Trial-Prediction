@@ -3,10 +3,11 @@
 
 # XGBoost and RandomForest Classifier for Clinical Trial Data
 
-This repository hosts the code for analyzing clinical trial data using XGBoost and RandomForest classifiers. The classifiers have been fine-tuned for optimal performance on the provided datasets.
+This repository hosts the code for analyzing clinical trial data using XGBoost and RandomForest classifiers. The classifiers have been fine-tuned for optimal performance on the provided datasets. The features and data are from previous research done: [HINT](https://github.com/futianfan/clinical-trial-outcome-prediction).
+
 
 ## Repository Structure
-- `top/`: Root directory containing all project files.
+- `top/`: Root directory containing all project files including embedding models from HINT. 
   - `data/`: Contains datasets for training, validation, and testing.
   - `model2.py`: Python script with the XGBoost and RandomForest classifier implementations.
  
