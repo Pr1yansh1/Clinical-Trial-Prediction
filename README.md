@@ -1,33 +1,35 @@
 # Clinical-Trial-Prediction
 
-**Codebase for Clinical Trial Outcome Prediction (TOP)**
 
-Predicting the outcomes of clinical trials is crucial in drug development and healthcare. Using machine learning models, we can provide an estimation of the trial outcomes, optimizing resources and guiding further research.
+# XGBoost and RandomForest Classifier for Clinical Trial Data
 
-## Directory Structure
+This repository hosts the code for analyzing clinical trial data using XGBoost and RandomForest classifiers. The classifiers have been fine-tuned for optimal performance on the provided datasets.
 
-The repository is organized as follows:
+## Repository Structure
+- `top/`: Root directory containing all project files.
+  - `data/`: Contains datasets for training, validation, and testing.
+  - `model2.py`: Python script with the XGBoost and RandomForest classifier implementations.
+ 
+the results are in `result.txt`
 
-- `data/`: Contains all the datasets for training, validation, and testing.
-- `data/model.py`: Contains the code for the Random Forest classifier.
+## Getting Started
 
-### Data
+1. **Clone the Repository**
+```bash
+git clone [YOUR REPO URL]
+```
 
-Within the `data/` directory, the datasets are organized per clinical trial phase. For each phase, there are three data files:
+2. **Navigate to Project Directory**
+```bash
+cd top
+```
 
-- `phase_I_train.csv`
-- `phase_I_valid.csv`
-- `phase_I_test.csv`
-(Repeat for phases II & III)
+3. **Run the Model**
+```bash
+python model2.py
+```
+*Note: Ensure you have the required libraries installed.*
 
-Each dataset has columns such as `nctid`, `status`, `why_stop`, `label`, `phase`, `diseases`, `icdcodes`, `drugs`, `smiless`, and `criteria`.
+## Dataset
 
-### Model
-
-To understand the model's workings and configurations:
-
-- Check `model.py` for the Random Forest classifier's implementation, training, and evaluation procedures.
-
-```python
-# To run the model, execute:
-python model.py
+Datasets are housed within the `top/data` directory
