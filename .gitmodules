@@ -1,0 +1,3 @@
+[submodule "clinical-top"]
+	path = clinical-top
+	url = https://github.com/futianfan/clinical-trial-outcome-prediction.git
